@@ -18,7 +18,7 @@ app.initQgis()
 # Probably you want to tweak this
 project_path = '/home/bartosz/github/qgis_auto/projekt.qgs'
 # and this
-template_path = '/home/bartosz/github/szablon_composer.qpt'
+template_path = '/home/bartosz/github/qgis_auto/szablon_composer.qpt'
 
 # Set output DPI
 dpi = 200
