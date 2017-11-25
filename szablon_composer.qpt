@@ -1,0 +1,105 @@
+<Composer title="zwykly" visible="1">
+ <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{3951b939-d7a2-40b7-b82b-335dbac8cf72}" alignmentSnap="1" printResolution="300" paperWidth="166.557" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="141.651" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+  <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+   </layer>
+  </symbol>
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="320" pictureWidth="8.69995" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="1" file="/usr/share/qgis/svg/arrows/NorthArrow_04.svg" northOffset="0" pictureHeight="13.8344" mapId="0" anchorPoint="2">
+   <ComposerItem pagey="5.65" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="135.717" y="5.65" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="15.5571" outlineWidth="0.3" excludeFromExports="0" uuid="{5e65dca4-01c9-4d4c-a79e-9187c3383d3b}" height="20.4465" itemRotation="0" frame="true" pagex="135.717">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerScaleBar lineCapStyle="square" style="Line Ticks Up" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="6.26687" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="25" units="1" labelBarSpace="3" outlineWidth="0.3" numSegmentsLeft="0" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="m">
+   <scaleBarFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="Regular"/>
+   <fillColor alpha="255" red="0" blue="0" green="0"/>
+   <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+   <strokeColor alpha="255" red="0" blue="0" green="0"/>
+   <textColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem pagey="122.948" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="97.8608" y="122.948" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="36.3222" outlineWidth="0.3" excludeFromExports="0" uuid="{258d86e9-4e86-4a1c-9f92-a56007210e9d}" height="11.6" itemRotation="0" frame="true" pagex="97.8608">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerScaleBar>
+  <ComposerMap followPreset="false" mapRotation="320" keepLayerSet="false" followPresetName="" id="0" previewMode="Render" drawCanvasItems="true">
+   <Extent ymin="6884260" xmin="1885708.75" ymax="6884780.00071695912629366" xmax="1886251.25"/>
+   <LayerSet/>
+   <Grid/>
+   <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="0" showAnnotation="1" topFrameDivisions="1" uuid="{c9a7b933-db76-4696-891b-ab62ba005507}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="2" offsetX="0" offsetY="0" rightFrameDivisions="2" gridStyle="3" annotationFontColor="0,0,0,255" intervalX="100" gridFrameSideFlags="15" intervalY="100" bottomAnnotationDirection="0" leftAnnotationDisplay="2" leftFrameDivisions="2" frameFillColor1="255,255,255,255" annotationExpression=" @grid_axis " frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.30000000000000004" bottomAnnotationDisplay="1" unit="0" topAnnotationDisplay="1" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="1" gridFrameWidth="1.5" name="Siatka 1" annotationFormat="0" bottomFrameDivisions="1" topAnnotationDirection="0" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" clip_to_extent="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="flat"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="148,148,148,255"/>
+       <prop k="line_style" v="dot"/>
+       <prop k="line_width" v="0.3"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="diameter"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <annotationFontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style="Regular"/>
+   </ComposerMapGrid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="5.65" page="1" id="" lastValidViewScaleFactor="4.02325" positionMode="0" positionLock="false" x="15.2828" y="5.65" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="135.991" outlineWidth="0.3" excludeFromExports="0" uuid="{3951b939-d7a2-40b7-b82b-335dbac8cf72}" height="130.351" itemRotation="0" frame="true" pagex="15.2828">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerMap>
+  <customproperties>
+   <property key="imageCropMarginBottom" value="0"/>
+   <property key="imageCropMarginLeft" value="0"/>
+   <property key="imageCropMarginRight" value="0"/>
+   <property key="imageCropMarginTop" value="0"/>
+   <property key="imageCropToContents" value="true"/>
+  </customproperties>
+ </Composition>
+</Composer>

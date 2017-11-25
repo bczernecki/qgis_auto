@@ -1,0 +1,2567 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="map" version="2.18.14">
+  <title>map</title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="obrys_budynku20171125230938260" source="/home/bartosz/github/qgis_auto/layers/obrys_budynku.shp" name="obrys_budynku">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="poznan_drogi20171125231034088" source="/home/bartosz/github/qgis_auto/layers/poznan_drogi.shp" name="poznan_drogi">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="r1120171125231124427" source="/home/bartosz/github/qgis_auto/layers/r11.tif" name="r11">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="rozany_hillshade20171125231200753" source="/home/bartosz/github/qgis_auto/layers/rozany_hillshade.tif" name="rozany_hillshade">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="poznan_granice20171125231243986" source="/home/bartosz/github/qgis_auto/layers/poznan_granice.shp" name="poznan_granice">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="poznan_budynki20171125231318705" source="/home/bartosz/github/qgis_auto/layers/poznan_budynki.shp" name="poznan_budynki">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="testowy_kopia20171125231410274" source="/home/bartosz/github/qgis_auto/layers/testowy_kopia.tif" name="testowy_kopia">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>1885780.16550628561526537</xmin>
+      <ymin>6884229.31882146466523409</ymin>
+      <xmax>1886236.85062137013301253</xmax>
+      <ymax>6884679.28709462378174067</ymax>
+    </extent>
+    <rotation>-40</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="testowy20170115013535905"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1920170116014520107"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="rozany20170115131507353"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_kuik_a20170115125221799"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="cien_01_grudnia_14godz20170115182752414"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="testowy_kopia20171125231410274"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_kupg_a20170115125221858"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="PL_PZGIK_201_30__OT_BUIT_P20170115125714123"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1120171125231124427"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_suln_l20170115125222324"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="wngig220170115042328744"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="poznan_budynki20140517025854503"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1120170116010614190"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1520170116010614959"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="poznan_granice20171125231243986"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_tcpn_a20170115125222452"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_ptut_a20170115125222135"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_tcpk_a20170115125222435"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_swrs_l20170115125222381"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="wngig20170115014943532"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_swrm_l20170115125222361"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20170115024712200"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1320170116010614569"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_skpp_l20170115125222262"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="Budynki_oświaty_nauki_kultury_lub_sportu20170115124650418"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_ptgn_a20170115125221981"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_kusk_a20170115125221926"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_tcon_a20170115125222413"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="wyjscie20170115132805513"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_kuko_a20170115125221818"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="PL_PZGIK_201_30__OT_BUZM_L20170115125714816"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="0920170116005658790"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="poznan_railways20140517025941295"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_butr_l20170115125221724"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_buuo_l20170115125221740"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="poznan_dem20140517074625599"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="memory_20170115190913500"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_kupg_p20170115125221889"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1520170116014120166"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_sktr_l20170115125222304"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="cien_01_grudnia_9godz20170115190221524"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="1520170116005659561"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="memory_20170115190727646"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_buhd_l20170115125221643"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="testowy_kopia20170115035011042"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_ptso_a20170115125222078"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_adms_p20170115125221601"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r0920170116012843579"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1120170116012844192"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_buit_p20170115125221704"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_pttr_a20170115125222098"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="poznan_budynki20171125231318705"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1320170116014119660"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="rozany20170115131311356"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="1grudnia_0920170115182119171"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1120170116014945675"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="PL_PZGIK_201_30__OT_BUIT_P20170115130127361"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_kusc_a20170115125221908"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1320170116012844760"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="rozany20170115131413771"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r0920170116014118508"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="PL_PZGIK_201_30__OT_BUHD_L20170115125712883"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_kuko_p20170115125221841"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="rozany_kopia20170115184121539"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="rozany20170115131439152"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="punkt20170115042807789"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_buin_l20170115125221683"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="cien_01_grudnia_14godz_obrys20170115185054780"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_buhd_p20170115125221662"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r0720170116014439288"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="PL_PZGIK_201_30__OT_BUWT_P20170115125655522"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="PL_PZGIK_201_30__OT_BUIN_L20170115125713769"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_buzm_l20170115125221777"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="cien_01_grudnia_9godz_220170115190856755"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="poznan_granice20140517030047269"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="obrys_budynku20171125230938260"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1120170116014119131"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_ptzb_a20170115125222188"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_ptlz_a20170115125222000"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_ptnz_a20170115125222029"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_skdr_l20170115125222219"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="cien_01_grudnia_9godz_obrys20170115190943489"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_swkn_l20170115125222344"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="1320170116005659332"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="mapa20170115132629551"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="wngig_kopia20170115190357769"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r1520170116012845308"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_ptrk_a20170115125222062"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_oimk_a20170115125221963"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="wngig2020170115134836622"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_buwt_p20170115125221757"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="PL_PZGIK_201_30__OT_BUWT_P20170115125714486"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OCM_Landscape20170115025741325"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100003" srcDatumTransform="-1" destDatumTransform="-1" layerid="grid20170115195246654"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="poznan_drogi20171125231034088"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="memory_20170115184759748"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="rozany20170115184047108"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="wngig_kopia20170115023832729"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="1grudnia_1420170115182550656"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="rozany20170115131944880"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_ptwp_a20170115125222153"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="PL_PZGIK_201_30__OT_PTZB_A20170115130714988"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="1grudnia_obrys20170115184728106"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="rozany_hillshade20171125231200753"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_ptpl_a20170115125222045"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20170115025626646"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_adja_a20170115125221560"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="PL_PZGIK_201_30__OT_BUHD_P20170115125713346"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_ptwz_a20170115125222172"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_oikm_p20170115125221943"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="rozany20170115183754266"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="1120170116005659078"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="r0920170116010613712"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="poznan_drogi20140517025054652"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="poznan_natural20140517025801569"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_skrw_p20170115125222282"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="bdoo_201607_ot_tcrz_a20170115125222472"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20170115025409937"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="calosc2_tif20170115131643762"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2180" srcDatumTransform="-1" destDatumTransform="-1" layerid="wngig1020170115134522405"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>obrys_budynku20171125230938260</item>
+      <item>poznan_drogi20171125231034088</item>
+      <item>r1120171125231124427</item>
+      <item>rozany_hillshade20171125231200753</item>
+      <item>poznan_granice20171125231243986</item>
+      <item>poznan_budynki20171125231318705</item>
+      <item>testowy_kopia20171125231410274</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="obrys_budynku" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="obrys_budynku20171125230938260" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="poznan_drogi" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="poznan_drogi20171125231034088" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="r11" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="r1120171125231124427" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rozany_hillshade" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="rozany_hillshade20171125231200753" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="poznan_granice" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="poznan_granice20171125231243986" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="poznan_budynki" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="poznan_budynki20171125231318705" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="testowy_kopia" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="testowy_kopia20171125231410274" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <Composer title="zwykly" visible="0">
+    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{3951b939-d7a2-40b7-b82b-335dbac8cf72}" alignmentSnap="1" printResolution="300" paperWidth="166.557" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="141.651" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="joinstyle" v="miter"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="320" pictureWidth="8.69995" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="1" file="/usr/share/qgis/svg/arrows/NorthArrow_04.svg" northOffset="0" pictureHeight="13.8344" mapId="0" anchorPoint="2">
+        <ComposerItem pagey="5.65" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="135.717" y="5.65" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="15.5571" outlineWidth="0.3" excludeFromExports="0" uuid="{5e65dca4-01c9-4d4c-a79e-9187c3383d3b}" height="20.4465" itemRotation="0" frame="true" pagex="135.717">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerPicture>
+      <ComposerScaleBar lineCapStyle="square" style="Line Ticks Up" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="6.26687" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="25" units="1" labelBarSpace="3" outlineWidth="0.3" numSegmentsLeft="0" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="m">
+        <scaleBarFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <fillColor alpha="255" red="0" blue="0" green="0"/>
+        <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+        <strokeColor alpha="255" red="0" blue="0" green="0"/>
+        <textColor alpha="255" red="0" blue="0" green="0"/>
+        <ComposerItem pagey="122.948" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="97.8608" y="122.948" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="36.3222" outlineWidth="0.3" excludeFromExports="0" uuid="{258d86e9-4e86-4a1c-9f92-a56007210e9d}" height="11.6" itemRotation="0" frame="true" pagex="97.8608">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerScaleBar>
+      <ComposerMap followPreset="false" mapRotation="320" keepLayerSet="false" followPresetName="" id="0" previewMode="Render" drawCanvasItems="true">
+        <Extent ymin="6884260" xmin="1885708.75" ymax="6884780.00071695912629366" xmax="1886251.25"/>
+        <LayerSet/>
+        <Grid/>
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="0" showAnnotation="1" topFrameDivisions="1" uuid="{c9a7b933-db76-4696-891b-ab62ba005507}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="2" offsetX="0" offsetY="0" rightFrameDivisions="2" gridStyle="3" annotationFontColor="0,0,0,255" intervalX="100" gridFrameSideFlags="15" intervalY="100" bottomAnnotationDirection="0" leftAnnotationDisplay="2" leftFrameDivisions="2" frameFillColor1="255,255,255,255" annotationExpression=" @grid_axis " frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.30000000000000004" bottomAnnotationDisplay="1" unit="0" topAnnotationDisplay="1" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="1" gridFrameWidth="1.5" name="Siatka 1" annotationFormat="0" bottomFrameDivisions="1" topAnnotationDirection="0" frameAnnotationDistance="1">
+          <lineStyle>
+            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+              <layer pass="0" class="SimpleLine" locked="0">
+                <prop k="capstyle" v="flat"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="148,148,148,255"/>
+                <prop k="line_style" v="dot"/>
+                <prop k="line_width" v="0.3"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              </layer>
+            </symbol>
+          </lineStyle>
+          <markerStyle>
+            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+              <layer pass="0" class="SimpleMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="name" v="circle"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline_color" v="0,0,0,255"/>
+                <prop k="outline_style" v="solid"/>
+                <prop k="outline_width" v="0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="scale_method" v="diameter"/>
+                <prop k="size" v="2"/>
+                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </markerStyle>
+          <annotationFontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style="Regular"/>
+        </ComposerMapGrid>
+        <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+        <ComposerItem pagey="5.65" page="1" id="" lastValidViewScaleFactor="4.02325" positionMode="0" positionLock="false" x="15.2828" y="5.65" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="135.991" outlineWidth="0.3" excludeFromExports="0" uuid="{3951b939-d7a2-40b7-b82b-335dbac8cf72}" height="130.351" itemRotation="0" frame="true" pagex="15.2828">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerMap>
+      <customproperties>
+        <property key="imageCropMarginBottom" value="0"/>
+        <property key="imageCropMarginLeft" value="0"/>
+        <property key="imageCropMarginRight" value="0"/>
+        <property key="imageCropMarginTop" value="0"/>
+        <property key="imageCropToContents" value="true"/>
+      </customproperties>
+    </Composition>
+  </Composer>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>obrys_budynku20171125230938260</id>
+      <datasource>./layers/obrys_budynku.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>obrys_budynku</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRS89 / Poland CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="osm_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="type">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wysokosc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,0,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.6"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Ubuntu"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="11"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Medium Italic"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>name</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etykieta"/>
+        <family fieldname="" name="Ubuntu"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>../../qgis-dane/poznan</annotationform>
+      <aliases>
+        <alias field="osm_id" index="0" name=""/>
+        <alias field="name" index="1" name=""/>
+        <alias field="type" index="2" name=""/>
+        <alias field="wysokosc" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;type&quot;" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="wysokosc"/>
+          <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="osm_id"/>
+          <column width="-1" hidden="0" type="field" name="name"/>
+          <column width="-1" hidden="0" type="field" name="type"/>
+        </columns>
+      </attributetableconfig>
+      <editform>../../qgis-dane/poznan</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>../../qgis-dane/poznan</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="osm_id" expression=""/>
+        <default field="name" expression=""/>
+        <default field="type" expression=""/>
+        <default field="wysokosc" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>poznan_budynki20171125231318705</id>
+      <datasource>./layers/poznan_budynki.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>poznan_budynki</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRS89 / Poland CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="osm_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="type">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wysokosc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,0,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="0"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value="CASE WHEN waterway &lt;> '' THEN name END&#x9;"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Ubuntu"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="75"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="true"/>
+        <property key="labeling/minFeatureSize" value="10"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Medium Italic"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="5"/>
+        <property key="labeling/placementFlags" value="0"/>
+        <property key="labeling/plussign" value="true"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="150"/>
+        <property key="labeling/textColorG" value="150"/>
+        <property key="labeling/textColorR" value="150"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames">
+          <value>qgis_25d_angle</value>
+          <value>qgis_25d_height</value>
+        </property>
+        <property key="variableValues">
+          <value>70</value>
+          <value>wysokosc</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>name</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>../../qgis-dane/osm_pl</annotationform>
+      <aliases>
+        <alias field="osm_id" index="0" name=""/>
+        <alias field="name" index="1" name=""/>
+        <alias field="type" index="2" name=""/>
+        <alias field="wysokosc" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="osm_id"/>
+          <column width="-1" hidden="0" type="field" name="name"/>
+          <column width="-1" hidden="0" type="field" name="type"/>
+          <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="wysokosc"/>
+        </columns>
+      </attributetableconfig>
+      <editform>../../qgis-dane/osm_pl</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>../../qgis-dane/poznan</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="osm_id" expression=""/>
+        <default field="name" expression=""/>
+        <default field="type" expression=""/>
+        <default field="wysokosc" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "name", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>poznan_drogi20171125231034088</id>
+      <datasource>./layers/poznan_drogi.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>poznan_drogi</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRS89 / Poland CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="osm_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ref">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="type">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="oneway">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="bridge">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="tunnel">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="maxspeed">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{d92daaf0-295e-49a4-a2ff-f6fc7a118cb8}">
+          <rule scalemaxdenom="30000" filter=" &quot;type&quot;  IN ( 'highway')" key="{01efed7c-2745-427b-a30c-cefa3e835109}" symbol="0" label="Motorway"/>
+          <rule filter=" &quot;highway&quot;  IN ( 'motorway')" key="{8929b62b-33cc-4a1c-a482-a91a3b1341ab}" symbol="1" scalemindenom="30000" label="Motorway Zoomed"/>
+          <rule scalemaxdenom="30000" filter=" &quot;highway&quot;  IN ( 'motorway') and &quot;bridge&quot; IN ( 'yes','viaduct')" key="{6c36669a-e540-4510-b38f-8835cdcceb51}" symbol="2" label="Motorway Bridge"/>
+          <rule scalemaxdenom="30000" filter=" &quot;type&quot;  IN ( 'trunk')" key="{951877d9-e545-4021-bcd2-ee5730cb7140}" symbol="3" label="Trunk"/>
+          <rule filter=" &quot;highway&quot;  IN ( 'trunk')" key="{bd85db6e-f004-48e9-a890-cadc1a4add2e}" symbol="4" scalemindenom="30000" label="Trunk Zoomed"/>
+          <rule scalemaxdenom="30000" filter=" &quot;type&quot;  IN ( 'motorway_link')" key="{9e532b6a-13a3-43af-8807-8291ce6a073e}" symbol="5" label="Motorway Links"/>
+          <rule filter=" &quot;highway&quot;  IN ( 'motorway_link')" key="{defa3a74-05a1-4964-856e-611cdf692634}" symbol="6" scalemindenom="30000" label="Motorway Links Zoomed"/>
+          <rule scalemaxdenom="30000" filter=" &quot;highway&quot;  IN ( 'trunk') and &quot;bridge&quot; IN ( 'yes', 'viaduct')" key="{ad7a6634-a7e7-44e3-95a4-7daea0fbeed2}" symbol="7" label="Trunk Bridge"/>
+          <rule scalemaxdenom="30000" filter=" &quot;type&quot;  IN ( 'primary','primary_link')" key="{c394b4ec-e91a-45ff-9774-861dafe5e65c}" symbol="8" label="Primary"/>
+          <rule filter=" &quot;type&quot;  IN ( 'primary','primary_link')" key="{f644a822-41e5-4d8b-9772-03efd6fa4d80}" symbol="9" scalemindenom="30000" label="Primary Zoomed"/>
+          <rule scalemaxdenom="30000" filter=" &quot;highway&quot;  IN ( 'primary','primary_link') and &quot;bridge&quot; IN ( 'yes', 'viaduct')" key="{b3a3f775-2c3a-482b-88f2-909ef343b354}" symbol="10" label="Primary Bridge"/>
+          <rule scalemaxdenom="30000" filter=" &quot;type&quot;  IN ( 'secondary','secondary_link')" key="{bc924589-cebd-490f-859c-ec1553a9c763}" symbol="11" label="Secondary"/>
+          <rule scalemaxdenom="500000" filter=" &quot;type&quot;  IN ( 'secondary','secondary_link')" key="{08d4b5c3-0589-42ef-9206-8c6142dbdce4}" symbol="12" scalemindenom="30000" label="Secondary Zoomed"/>
+          <rule scalemaxdenom="30000" filter=" &quot;highway&quot;  IN ( 'secondary','secondary_link') and &quot;bridge&quot; IN ( 'yes', 'viaduct')" key="{382f5b77-5f38-4d27-ab17-c2a412990854}" symbol="13" label="Secondary Bridge"/>
+          <rule scalemaxdenom="30000" filter=" &quot;type&quot;  IN ( 'tertiary')" key="{398a7c8a-0a5c-4aa8-930a-b32ea9088224}" symbol="14" label="Tertiary"/>
+          <rule scalemaxdenom="500000" filter=" &quot;type&quot;  IN ( 'tertiary')" key="{65c0ea8f-78da-47e3-9b29-866d6f418182}" symbol="15" scalemindenom="30000" label="Tertiary Zoomed"/>
+          <rule scalemaxdenom="30000" filter=" &quot;type&quot;  IN ('residential')" key="{026b711d-ae7a-4eeb-a4ae-fae10091c07b}" symbol="16" label="Road"/>
+          <rule scalemaxdenom="80000" filter=" &quot;highway&quot;  IN ('residential')" key="{d5653c19-5329-4d0d-abd2-9ff5f7e05b1c}" symbol="17" scalemindenom="30000" label="Roads Zoomed"/>
+          <rule scalemaxdenom="250000" filter=" &quot;highway&quot;  IN ('residential')" key="{27392f32-eb96-4913-a4f7-90d115ddb573}" symbol="18" scalemindenom="80000" label="Roads Zoomed Way Out"/>
+          <rule scalemaxdenom="350000" filter=" &quot;highway&quot;  IN ('residential')" key="{11fa4d00-792d-4e8e-b11d-8815171b37a5}" symbol="19" scalemindenom="250000" label="Road Zoomed Way Way Out"/>
+          <rule scalemaxdenom="50000" filter=" &quot;highway&quot;  IN ('service', 'road', 'unclassified', 'track')" key="{b022d354-ba82-4d16-950a-3f5aba862916}" symbol="20" scalemindenom="1000" label="Small Road"/>
+          <rule scalemaxdenom="50000" filter="&quot;type&quot; IN ('footway', 'path')" key="{6aab6e7f-359e-4b65-b08f-24f9ca9fba90}" symbol="21" scalemindenom="1000" label="Paths"/>
+          <rule filter="&quot;type&quot; IN ('footway', 'path') and &quot;bridge&quot; = 'yes'" key="{0f3061aa-e589-4d66-a283-2bac63268cbd}" symbol="22" label="Path Bridges"/>
+          <rule scalemaxdenom="150000" filter=" &quot;railway&quot;  = 'rail'" key="{14804da3-caee-42fe-86e3-439d05548a68}" symbol="23" label="Railroad"/>
+          <rule scalemaxdenom="150000" filter=" &quot;railway&quot;  = 'rail' and &quot;bridge&quot; = 'yes'" key="{a5a9d8a6-7f7c-48f8-88e4-07367db7e92e}" symbol="24" label="Railroad Bridge"/>
+          <rule scalemaxdenom="200000" filter=" &quot;aeroway&quot; = 'taxiway'" key="{54432443-e07a-4f90-b77d-1f41fd2aff44}" symbol="25" label="Airport Taxiway"/>
+          <rule scalemaxdenom="200000" filter=" &quot;aeroway&quot; = 'runway'" key="{ed7a9201-ca84-46cc-b980-fd10a688785f}" symbol="26" label="Airport Runway"/>
+          <rule scalemaxdenom="350000" filter=" &quot;aeroway&quot; = 'runway'" key="{7949d996-b673-4aa4-999f-6bda4b23d758}" symbol="27" scalemindenom="200000" label="Airport Runway Zoomed"/>
+        </rules>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="6" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="7" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="225,132,51,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.8"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="1">
+            <layer pass="6" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.4"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="7" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="225,132,51,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.2"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="10">
+            <layer pass="7" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="120,120,120,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.2"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="8" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="230,255,139,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.8"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="11">
+            <layer pass="4" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.7"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="5" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,251,137,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.5"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="12">
+            <layer pass="4" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="5" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,251,137,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.8"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="13">
+            <layer pass="7" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="120,120,120,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.8"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="8" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,251,137,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.5"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="14">
+            <layer pass="2" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.5"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="3" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="255,255,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.3"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="15">
+            <layer pass="1" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.9"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="2" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="255,255,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.7"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="16">
+            <layer pass="1" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.3"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="2" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="255,255,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="17">
+            <layer pass="1" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.5"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="2" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="255,255,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.3"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="18">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="209,209,209,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.4"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="19">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="209,209,209,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.2"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="2">
+            <layer pass="7" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="120,120,120,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2.2"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="8" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="225,132,51,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.8"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="20">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="209,209,209,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.4"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="0.486275" clip_to_extent="1" type="line" name="21">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="132,158,126,255"/>
+              <prop k="line_style" v="dash"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="22">
+            <layer pass="7" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="120,120,120,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.4"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="8" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,255,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.32"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="9" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="132,158,126,255"/>
+              <prop k="line_style" v="dash"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="23">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="1;1"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="196,196,196,255"/>
+              <prop k="line_style" v="dot"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="1"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="24">
+            <layer pass="7" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="164,164,164,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.5"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="8" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,255,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.4"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="9" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="1;1"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="196,196,196,255"/>
+              <prop k="line_style" v="dot"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="1"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="25">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="200,200,200,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.75"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="26">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="200,200,200,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="27">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="200,200,200,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="3">
+            <layer pass="3" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="4" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="225,223,105,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.8"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="4">
+            <layer pass="3" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.2"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="4" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="225,223,105,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="5">
+            <layer pass="3" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.2"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="4" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="225,161,105,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="6">
+            <layer pass="3" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.8"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="4" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="225,161,105,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.6"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="7">
+            <layer pass="6" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="52,52,52,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="7" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="225,223,105,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.8"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="8">
+            <layer pass="5" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="2"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="6" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="230,255,139,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.8"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="9">
+            <layer pass="5" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="flat"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="143,143,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1.1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+            <layer pass="6" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="round"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="round"/>
+              <prop k="line_color" v="230,255,139,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.9"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferSize" value="0.25"/>
+        <property key="labeling/decimals" value="0"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value="name"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontSize" value="8"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/mergeLines" value="true"/>
+        <property key="labeling/minFeatureSize" value="1"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/placement" value="3"/>
+        <property key="labeling/placementFlags" value="9"/>
+        <property key="labeling/plussign" value="true"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/scaleMax" value="0"/>
+        <property key="labeling/scaleMin" value="0"/>
+        <property key="labeling/textColorB" value="20"/>
+        <property key="labeling/textColorG" value="20"/>
+        <property key="labeling/textColorR" value="20"/>
+        <property key="labeling/wrapChar" value=""/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>name</displayfield>
+      <label>0</label>
+      <labelfield>name</labelfield>
+      <labelattributes>
+        <label fieldname="name" text=""/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="8"/>
+        <bold fieldname="" on="1"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="3" blue="3" green="3"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="4.25" y="4.5" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="34" blue="34" green="34"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>../../qgis-dane/osm_pl</annotationform>
+      <aliases>
+        <alias field="osm_id" index="0" name=""/>
+        <alias field="name" index="1" name=""/>
+        <alias field="ref" index="2" name=""/>
+        <alias field="type" index="3" name=""/>
+        <alias field="oneway" index="4" name=""/>
+        <alias field="bridge" index="5" name=""/>
+        <alias field="tunnel" index="6" name=""/>
+        <alias field="maxspeed" index="7" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform>../../qgis-dane/osm_pl</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>../../qgis-dane/poznan</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="osm_id" expression=""/>
+        <default field="name" expression=""/>
+        <default field="ref" expression=""/>
+        <default field="type" expression=""/>
+        <default field="oneway" expression=""/>
+        <default field="bridge" expression=""/>
+        <default field="tunnel" expression=""/>
+        <default field="maxspeed" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>poznan_granice20171125231243986</id>
+      <datasource>./layers/poznan_granice.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>poznan_granice</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRS89 / Poland CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="FID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="172,123,37,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,0,0,255"/>
+              <prop k="outline_style" v="dash dot"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="no"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fontBold" value="true"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Lucida Grande"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="10"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="75"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Bold"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="0"/>
+        <property key="labeling/placementFlags" value="0"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>FID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etykieta"/>
+        <family fieldname="" name="Lucida Grande"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>../../qgis-dane/poznan</annotationform>
+      <aliases>
+        <alias field="FID" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform>../../qgis-dane/poznan</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>../../qgis-dane/poznan</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="FID" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>359880.61548615002539009</xmin>
+        <ymin>512522.62502509000478312</ymin>
+        <xmax>360652.92244307999499142</xmax>
+        <ymax>513280.90367810998577625</ymax>
+      </extent>
+      <id>r1120171125231124427</id>
+      <datasource>./layers/r11.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>r11</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRS89 / Poland CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="0.6" alphaBand="0" classificationMax="0.999" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#515151"/>
+              <item alpha="255" value="0.999" label="0.999" color="#fafafa"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>359880.61548615200445056</xmin>
+        <ymin>512522.62502509262412786</ymin>
+        <xmax>360652.9224430758622475</xmax>
+        <ymax>513280.90367811266332865</ymax>
+      </extent>
+      <id>rozany_hillshade20171125231200753</id>
+      <datasource>./layers/rozany_hillshade.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>rozany_hillshade</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRS89 / Poland CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="0.341176" azimuth="315" alphaBand="0" band="1" zfactor="1" type="hillshade" multidirection="0" angle="45">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>360100</xmin>
+        <ymin>512750</ymin>
+        <xmax>360450</xmax>
+        <ymax>513026</ymax>
+      </extent>
+      <id>testowy_kopia20171125231410274</id>
+      <datasource>./layers/testowy_kopia.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>testowy_kopia</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRS89 / Poland CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="0.423529" alphaBand="-1" classificationMax="105" classificationMinMaxOrigin="User" band="1" classificationMin="80" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="80" label="80" color="#0000ff"/>
+              <item alpha="255" value="82.5" label="82.5" color="#2233e6"/>
+              <item alpha="255" value="85" label="85" color="#4466cc"/>
+              <item alpha="255" value="87.5" label="87.5" color="#6699b2"/>
+              <item alpha="255" value="90" label="90" color="#88cc99"/>
+              <item alpha="255" value="92.5" label="92.5" color="#aaff7f"/>
+              <item alpha="255" value="95" label="95" color="#bebe61"/>
+              <item alpha="255" value="97.5" label="97.5" color="#d27d43"/>
+              <item alpha="255" value="100" label="100" color="#e63c26"/>
+              <item alpha="255" value="102.5" label="102.5" color="#f31e13"/>
+              <item alpha="255" value="105" label="105" color="#ff0000"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Variables>
+      <variableNames type="QStringList"/>
+      <variableValues type="QStringList"/>
+    </Variables>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WFSLayers type="QStringList"/>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <Measure>
+      <Ellipsoid type="QString">NONE</Ellipsoid>
+    </Measure>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>obrys_budynku20171125230938260</value>
+        <value>poznan_drogi20171125231034088</value>
+        <value>poznan_granice20171125231243986</value>
+        <value>poznan_budynki20171125231318705</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">advanced</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WCSLayers type="QStringList"/>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:3857</ProjectCrs>
+      <ProjectCRSID type="int">3857</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <AlphaInt type="int">255</AlphaInt>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <WMSUrl type="QString"></WMSUrl>
+  </properties>
+  <visibility-presets/>
+</qgis>
